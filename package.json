@@ -4,7 +4,8 @@
   "description": "a cool tailwind ui project",
   "license": "MIT",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.1.8",
