@@ -1,0 +1,12 @@
+{
+  "name": "lesson-tailwind",
+  "version": "1.0.0",
+  "description": "a cool tailwind ui project",
+  "license": "MIT",
+  "scripts": {
+    "watch":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
